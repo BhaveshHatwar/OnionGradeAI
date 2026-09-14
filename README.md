@@ -136,7 +136,26 @@ The prototype is built using **Streamlit** and provides:
 * Raw model output for debugging
 
 ---
+## 🔐 API Key Setup
 
+This project uses the Gemini API to analyze onion images.
+
+For security reasons, the Gemini API key is not included in this repository.
+
+### 1. Get a Gemini API key
+
+Create your own Gemini API key.
+
+### 2. Create a `.env` file
+
+In the project root directory, create a file named:
+
+`.env`
+
+Add:
+
+```env
+GEMINI_APIKEY=your_own_api_key
 ## 🛠️ Technology Stack
 
 **Frontend / Interface**
